@@ -5,20 +5,18 @@
 }
 
 .title {
-  font-size: 0.5em;
+  font-size: 0.75em;
   font-weight: bold;
 }
 
-.sub-header {  
+.header-display {  
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-content: space-between;
+  justify-content: space-between;
 }
 
 .menu-icon {
-  justify-content: start;
-  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .menu-icon-slice {
@@ -30,4 +28,8 @@
 
 .timer-header {
   justify-content: center;
+}
+
+.reset {
+  object-fit: contain;
 }

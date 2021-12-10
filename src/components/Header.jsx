@@ -8,7 +8,7 @@ function Header(props) {
   return (
     <div className="header">
       <Title title={props.title}></Title>
-      <div className="sub-header">
+      <div className="header-display">
         <MenuIcon />
         <Timer className="timer-header" time={props.time}></Timer>
         <Reset></Reset>
