@@ -1,0 +1,33 @@
+@import-normalize;
+
+.header {
+  text-align: center;
+}
+
+.title {
+  font-size: 0.5em;
+  font-weight: bold;
+}
+
+.sub-header {  
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+.menu-icon {
+  justify-content: start;
+  align-items: center;
+}
+
+.menu-icon-slice {
+  width: 35px;
+  height: 5px;
+  background-color: #000;
+  margin: 6px 0;
+}
+
+.timer-header {
+  justify-content: center;
+}
